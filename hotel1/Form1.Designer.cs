@@ -57,7 +57,7 @@
             // 
             this.lbl_n1.AutoSize = true;
             this.lbl_n1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n1.Location = new System.Drawing.Point(9, 92);
+            this.lbl_n1.Location = new System.Drawing.Point(9, 135);
             this.lbl_n1.Name = "lbl_n1";
             this.lbl_n1.Size = new System.Drawing.Size(145, 16);
             this.lbl_n1.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             this.lbl_n2.AutoSize = true;
             this.lbl_n2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n2.Location = new System.Drawing.Point(9, 177);
+            this.lbl_n2.Location = new System.Drawing.Point(9, 210);
             this.lbl_n2.Name = "lbl_n2";
             this.lbl_n2.Size = new System.Drawing.Size(155, 16);
             this.lbl_n2.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             this.lbl_n3.AutoSize = true;
             this.lbl_n3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n3.Location = new System.Drawing.Point(9, 250);
+            this.lbl_n3.Location = new System.Drawing.Point(9, 277);
             this.lbl_n3.Name = "lbl_n3";
             this.lbl_n3.Size = new System.Drawing.Size(310, 16);
             this.lbl_n3.TabIndex = 3;
@@ -91,7 +91,7 @@
             "Bassa Stagione",
             "Media Stagione",
             "Alta Stagione"});
-            this.cmb_n1.Location = new System.Drawing.Point(12, 111);
+            this.cmb_n1.Location = new System.Drawing.Point(12, 154);
             this.cmb_n1.Name = "cmb_n1";
             this.cmb_n1.Size = new System.Drawing.Size(121, 24);
             this.cmb_n1.TabIndex = 4;
@@ -105,7 +105,7 @@
             "Base",
             "Media",
             "Alta"});
-            this.cmb_n2.Location = new System.Drawing.Point(12, 196);
+            this.cmb_n2.Location = new System.Drawing.Point(12, 229);
             this.cmb_n2.Name = "cmb_n2";
             this.cmb_n2.Size = new System.Drawing.Size(121, 24);
             this.cmb_n2.TabIndex = 5;
@@ -124,7 +124,7 @@
             // 
             this.chk_n1.AutoSize = true;
             this.chk_n1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.chk_n1.Location = new System.Drawing.Point(12, 279);
+            this.chk_n1.Location = new System.Drawing.Point(12, 296);
             this.chk_n1.Name = "chk_n1";
             this.chk_n1.Size = new System.Drawing.Size(99, 20);
             this.chk_n1.TabIndex = 7;
@@ -145,30 +145,35 @@
             // lbl_n5
             // 
             this.lbl_n5.AutoSize = true;
+            this.lbl_n5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_n5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n5.Location = new System.Drawing.Point(294, 9);
+            this.lbl_n5.Location = new System.Drawing.Point(284, 9);
             this.lbl_n5.Name = "lbl_n5";
-            this.lbl_n5.Size = new System.Drawing.Size(105, 16);
+            this.lbl_n5.Size = new System.Drawing.Size(227, 32);
             this.lbl_n5.TabIndex = 9;
             this.lbl_n5.Text = "BENVENUTO/A";
             // 
             // lbl_n6
             // 
             this.lbl_n6.AutoSize = true;
+            this.lbl_n6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_n6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n6.Location = new System.Drawing.Point(12, 44);
+            this.lbl_n6.Location = new System.Drawing.Point(8, 81);
             this.lbl_n6.Name = "lbl_n6";
-            this.lbl_n6.Size = new System.Drawing.Size(274, 16);
+            this.lbl_n6.Size = new System.Drawing.Size(368, 22);
             this.lbl_n6.TabIndex = 10;
             this.lbl_n6.Text = "Compilare le seguenti richieste per prenotare";
             // 
             // lbl_n7
             // 
+            this.lbl_n7.AutoSize = true;
+            this.lbl_n7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_n7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lbl_n7.Location = new System.Drawing.Point(496, 62);
+            this.lbl_n7.Location = new System.Drawing.Point(533, 78);
             this.lbl_n7.Name = "lbl_n7";
-            this.lbl_n7.Size = new System.Drawing.Size(254, 30);
+            this.lbl_n7.Size = new System.Drawing.Size(164, 25);
             this.lbl_n7.TabIndex = 11;
+            this.lbl_n7.Text = "Bista Grand Hotel";
             // 
             // Form1
             // 
