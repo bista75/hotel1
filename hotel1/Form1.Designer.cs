@@ -37,11 +37,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.chk_n1 = new System.Windows.Forms.CheckBox();
             this.lbl_n4 = new System.Windows.Forms.Label();
+            this.lbl_n5 = new System.Windows.Forms.Label();
+            this.lbl_n6 = new System.Windows.Forms.Label();
+            this.lbl_n7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_n1
             // 
+            this.btn_n1.ForeColor = System.Drawing.Color.Black;
             this.btn_n1.Location = new System.Drawing.Point(12, 347);
             this.btn_n1.Name = "btn_n1";
             this.btn_n1.Size = new System.Drawing.Size(142, 49);
@@ -52,7 +56,8 @@
             // lbl_n1
             // 
             this.lbl_n1.AutoSize = true;
-            this.lbl_n1.Location = new System.Drawing.Point(9, 106);
+            this.lbl_n1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.lbl_n1.Location = new System.Drawing.Point(9, 92);
             this.lbl_n1.Name = "lbl_n1";
             this.lbl_n1.Size = new System.Drawing.Size(145, 16);
             this.lbl_n1.TabIndex = 1;
@@ -61,6 +66,7 @@
             // lbl_n2
             // 
             this.lbl_n2.AutoSize = true;
+            this.lbl_n2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.lbl_n2.Location = new System.Drawing.Point(9, 177);
             this.lbl_n2.Name = "lbl_n2";
             this.lbl_n2.Size = new System.Drawing.Size(155, 16);
@@ -70,6 +76,7 @@
             // lbl_n3
             // 
             this.lbl_n3.AutoSize = true;
+            this.lbl_n3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.lbl_n3.Location = new System.Drawing.Point(9, 250);
             this.lbl_n3.Name = "lbl_n3";
             this.lbl_n3.Size = new System.Drawing.Size(310, 16);
@@ -78,12 +85,13 @@
             // 
             // cmb_n1
             // 
+            this.cmb_n1.ForeColor = System.Drawing.Color.Black;
             this.cmb_n1.FormattingEnabled = true;
             this.cmb_n1.Items.AddRange(new object[] {
             "Bassa Stagione",
             "Media Stagione",
             "Alta Stagione"});
-            this.cmb_n1.Location = new System.Drawing.Point(12, 125);
+            this.cmb_n1.Location = new System.Drawing.Point(12, 111);
             this.cmb_n1.Name = "cmb_n1";
             this.cmb_n1.Size = new System.Drawing.Size(121, 24);
             this.cmb_n1.TabIndex = 4;
@@ -91,6 +99,7 @@
             // 
             // cmb_n2
             // 
+            this.cmb_n2.ForeColor = System.Drawing.Color.Black;
             this.cmb_n2.FormattingEnabled = true;
             this.cmb_n2.Items.AddRange(new object[] {
             "Base",
@@ -114,6 +123,7 @@
             // chk_n1
             // 
             this.chk_n1.AutoSize = true;
+            this.chk_n1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.chk_n1.Location = new System.Drawing.Point(12, 279);
             this.chk_n1.Name = "chk_n1";
             this.chk_n1.Size = new System.Drawing.Size(99, 20);
@@ -124,6 +134,7 @@
             // lbl_n4
             // 
             this.lbl_n4.AutoSize = true;
+            this.lbl_n4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.lbl_n4.Location = new System.Drawing.Point(12, 408);
             this.lbl_n4.Name = "lbl_n4";
             this.lbl_n4.Size = new System.Drawing.Size(89, 16);
@@ -131,12 +142,43 @@
             this.lbl_n4.Text = "Spesa totale: ";
             this.lbl_n4.UseMnemonic = false;
             // 
+            // lbl_n5
+            // 
+            this.lbl_n5.AutoSize = true;
+            this.lbl_n5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.lbl_n5.Location = new System.Drawing.Point(294, 9);
+            this.lbl_n5.Name = "lbl_n5";
+            this.lbl_n5.Size = new System.Drawing.Size(105, 16);
+            this.lbl_n5.TabIndex = 9;
+            this.lbl_n5.Text = "BENVENUTO/A";
+            // 
+            // lbl_n6
+            // 
+            this.lbl_n6.AutoSize = true;
+            this.lbl_n6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.lbl_n6.Location = new System.Drawing.Point(12, 44);
+            this.lbl_n6.Name = "lbl_n6";
+            this.lbl_n6.Size = new System.Drawing.Size(274, 16);
+            this.lbl_n6.TabIndex = 10;
+            this.lbl_n6.Text = "Compilare le seguenti richieste per prenotare";
+            // 
+            // lbl_n7
+            // 
+            this.lbl_n7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.lbl_n7.Location = new System.Drawing.Point(496, 62);
+            this.lbl_n7.Name = "lbl_n7";
+            this.lbl_n7.Size = new System.Drawing.Size(254, 30);
+            this.lbl_n7.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl_n7);
+            this.Controls.Add(this.lbl_n6);
+            this.Controls.Add(this.lbl_n5);
             this.Controls.Add(this.lbl_n4);
             this.Controls.Add(this.chk_n1);
             this.Controls.Add(this.pictureBox1);
@@ -165,6 +207,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox chk_n1;
         private System.Windows.Forms.Label lbl_n4;
+        private System.Windows.Forms.Label lbl_n5;
+        private System.Windows.Forms.Label lbl_n6;
+        private System.Windows.Forms.Label lbl_n7;
     }
 }
 
